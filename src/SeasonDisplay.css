@@ -1,14 +1,14 @@
 .icon-left {
     position: absolute;
-    top:40px;
-    left:40px;
+    top: 40px;
+    left: 40px;
 
 }
 
-.icon-right{
+.icon-right {
     position: absolute;
     bottom: 40px;
-    right:40px;
+    right: 40px;
 }
 
 .season-display.winter i {
@@ -19,11 +19,22 @@
 }
 
 @keyframes winter {
-    0% {color:#CCE5FF}
-    25% {color:#99CCFF}
-    50% {color:#66B2FF}
-    75% {color:#3399FF}
-    100% {color:#0080FF;  transform: rotate(180deg);}
+    0% {
+        color: #CCE5FF;
+    }
+    25% {
+        color: #99CCFF;
+    }
+    50% {
+        color: #66B2FF;
+    }
+    75% {
+        color: #3399FF;
+    }
+    100% {
+        color: #0080FF;
+        transform: rotate(180deg);
+    }
 }
 
 .season-display.summer i {
@@ -34,22 +45,29 @@
 }
 
 @keyframes summer {
-    0% {color:#FFCCCC;}
-    25% {color:#FF9999}
-    50% {color:#FF6666}
-    75% {color:#FF3333}
-    100% {color:#FF0000;  transform: rotate(180deg);}
+    0% {
+        color: #FFCCCC;
+    }
+    25% {
+        color: #FF9999;
+    }
+    50% {
+        color: #FF6666;
+    }
+    75% {
+        color: #FF3333;
+    }
+    100% {
+        color: #FF0000;
+        transform: rotate(180deg);
+    }
 }
-
-
-
-
 
 .season-display {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height: 100vh;
 }
 
 .season-display h1 {
