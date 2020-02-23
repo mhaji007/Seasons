@@ -52,6 +52,17 @@
     height:100vh;
 }
 
+.season-display h1 {
+    font-size: 3rem;
+    /* animation-name: heading; */
+    animation-duration: 5s;
+}
+/* 
+@keyframes heading {
+    0% {top:-500px;}
+    100% {top:100px;}
+} */
+
 .winter {
     background-color: aliceblue;
 
