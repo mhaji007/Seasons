@@ -16,6 +16,8 @@
     animation-name: winter;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    /* transition-property: all;
+    transition-duration: initial; */
 }
 
 @keyframes winter {
@@ -36,6 +38,10 @@
         transform: rotate(180deg);
     }
 }
+/* .season-display.winter i:hover {
+    transform: rotate(180deg);
+
+} */
 
 .season-display.summer i {
     color: red;
@@ -72,15 +78,20 @@
 
 .season-display h1 {
     font-size: 3rem;
-    /* animation-name: heading; */
-    animation-duration: 5s;
+    transition-property: all;
+    transition-duration: 2s;
+    /* animation-name: heading;
+    animation-duration: 5s; */
 }
-/* 
-@keyframes heading {
-    0% {top:-500px;}
-    100% {top:100px;}
+
+/* @keyframes heading {
+    0% {left:-500px;}
+    100% {left:100px;}
 } */
 
+.season-display h1:hover {
+    font-size: 6rem;
+}
 .winter {
     background-color: aliceblue;
 
